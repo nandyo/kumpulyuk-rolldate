@@ -1,6 +1,6 @@
 {
-  "name": "@kalashnikov/kumpulyuk-rolldate",
-  "version": "0.0.1",
+  "name": "@nandyo/kumpulyuk-rolldate",
+  "version": "0.1.0",
   "description": "Modified weijhfly's rolldate",
   "main": "dist/rolldate.min.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kalash69/kumpulyuk-rolldate.git"
+    "url": "git+https://github.com/nandyo/kumpulyuk-rolldate.git"
   },
-  "author": "Kalashnikov",
+  "author": "Nandyo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kalash69/kumpulyuk-rolldate/issues"
+    "url": "https://github.com/nandyo/kumpulyuk-rolldate/issues"
   },
-  "homepage": "https://github.com/Kalash69/kumpulyuk-rolldate#readme",
+  "homepage": "https://github.com/nandyo/kumpulyuk-rolldate#readme",
   "dependencies": {}
 }
