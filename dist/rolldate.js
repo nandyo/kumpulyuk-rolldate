@@ -265,8 +265,12 @@
                 opts: { //插件默认配置
                     el: '',
                     format: 'YYYY-MM-DD',
-                    beginYear: 2000,
-                    endYear: 2100,
+                    beginYear: null,
+                    endYear: null,
+                    beginMonth: null,
+                    endMonth: null,
+                    beginDay: null,
+                    endDay: null,
                     init: null,
                     moveEnd: null,
                     confirm: null,
@@ -309,7 +313,7 @@
                     domMndex = 0;
   
                 ul += '<div id="' + domId[f] + '"><ul class="wheel-scroll">';
-  
+                
                 if (f == 'YYYY') {
                     for (var j = config.beginYear; j <= config.endYear; j++) {
                         itemClass = j == date.getFullYear() ? 'active' : '';
@@ -324,7 +328,7 @@
                         ul += '<li class="wheel-item ' + itemClass + '" data-index="' + domMndex + '">' + (k < 10 ? '0' + k : k) + lang.month + '</li>';
                         domMndex++;
                     }
-                } else if (f == 'DD') {
+                } else if (f == 'DD') {               
                     var day = _this.bissextile(date.getFullYear(), date.getMonth() + 1);
                     for (var l = 1; l <= day; l++) {
                         itemClass = l == date.getDate() ? 'active' : '';
