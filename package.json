@@ -1,0 +1,20 @@
+{
+  "name": "@kalashnikov/kumpulyuk-rolldate",
+  "version": "0.0.1",
+  "description": "Modified weijhfly's rolldate",
+  "main": "dist/rolldate.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalash69/kumpulyuk-rolldate.git"
+  },
+  "author": "Kalashnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kalash69/kumpulyuk-rolldate/issues"
+  },
+  "homepage": "https://github.com/Kalash69/kumpulyuk-rolldate#readme",
+  "dependencies": {}
+}
